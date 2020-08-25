@@ -5,13 +5,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-// rl.question('What\'s your name? Nicknames are also acceptable :)', (answer1) => {
-//   r
-
-//   rl.close();
-// });
-
-
 rl.question('What\'s your name? Nicknames are also acceptable :)', (answer1) => {
   rl.question('What\'s an activity you like doing?', (answer2) => {
     rl.question('What do you listen to while doing that?', (answer3) => {
